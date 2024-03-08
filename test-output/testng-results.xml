@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="12" passed="12" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-08T07:50:46Z" name="Suite" finished-at="2024-03-08T07:53:17Z" duration-ms="151639">
+    <groups>
+    </groups>
+    <test started-at="2024-03-08T07:50:46Z" name="Test" finished-at="2024-03-08T07:53:17Z" duration-ms="151639">
+      <class name="com.csp.qa.testcase.TransactionsPage_TC">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.csp.qa.testcase.TransactionsPage_TC@6d167f58]" started-at="2024-03-08T13:21:04Z" name="setUp" finished-at="2024-03-08T13:21:10Z" duration-ms="6280" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Verify_Deposit_With_ValidAmount()[pri:1, instance:com.csp.qa.testcase.TransactionsPage_TC@6d167f58]" started-at="2024-03-08T13:21:10Z" name="Verify_Deposit_With_ValidAmount" finished-at="2024-03-08T13:21:12Z" duration-ms="1913" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Deposit_With_ValidAmount -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.csp.qa.testcase.TransactionsPage_TC@6d167f58]" started-at="2024-03-08T13:21:12Z" name="tearDown" finished-at="2024-03-08T13:21:12Z" duration-ms="414" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="teardownBrowser()[pri:0, instance:com.csp.qa.testcase.TransactionsPage_TC@6d167f58]" started-at="2024-03-08T13:21:12Z" name="teardownBrowser" finished-at="2024-03-08T13:21:12Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownBrowser -->
+      </class> <!-- com.csp.qa.testcase.TransactionsPage_TC -->
+      <class name="com.csp.qa.testcase.AddCustomerPage_TC">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.csp.qa.testcase.AddCustomerPage_TC@65b104b9]" started-at="2024-03-08T13:21:19Z" name="setUp" finished-at="2024-03-08T13:21:25Z" duration-ms="5550" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="AddCustomer_NotExist()[pri:1, instance:com.csp.qa.testcase.AddCustomerPage_TC@65b104b9]" started-at="2024-03-08T13:21:25Z" name="AddCustomer_NotExist" finished-at="2024-03-08T13:21:27Z" duration-ms="1775" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddCustomer_NotExist -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.csp.qa.testcase.AddCustomerPage_TC@65b104b9]" started-at="2024-03-08T13:21:27Z" name="tearDown" finished-at="2024-03-08T13:21:28Z" duration-ms="1273" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="teardownBrowser()[pri:0, instance:com.csp.qa.testcase.AddCustomerPage_TC@65b104b9]" started-at="2024-03-08T13:21:28Z" name="teardownBrowser" finished-at="2024-03-08T13:21:28Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownBrowser -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.csp.qa.testcase.AddCustomerPage_TC@65b104b9]" started-at="2024-03-08T13:22:17Z" name="setUp" finished-at="2024-03-08T13:22:23Z" duration-ms="6156" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="AddCustomer_Exist()[pri:2, instance:com.csp.qa.testcase.AddCustomerPage_TC@65b104b9]" started-at="2024-03-08T13:22:23Z" name="AddCustomer_Exist" finished-at="2024-03-08T13:22:27Z" depends-on-methods="com.csp.qa.testcase.AddCustomerPage_TC.AddCustomer_NotExist" duration-ms="3763" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddCustomer_Exist -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.csp.qa.testcase.AddCustomerPage_TC@65b104b9]" started-at="2024-03-08T13:22:27Z" name="tearDown" finished-at="2024-03-08T13:22:27Z" duration-ms="331" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="teardownBrowser()[pri:0, instance:com.csp.qa.testcase.AddCustomerPage_TC@65b104b9]" started-at="2024-03-08T13:22:27Z" name="teardownBrowser" finished-at="2024-03-08T13:22:27Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownBrowser -->
+      </class> <!-- com.csp.qa.testcase.AddCustomerPage_TC -->
+      <class name="com.csp.qa.testcase.CustomerLoginPage_TC">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.csp.qa.testcase.CustomerLoginPage_TC@4ff8d125]" started-at="2024-03-08T13:20:56Z" name="setUp" finished-at="2024-03-08T13:21:01Z" duration-ms="4770" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="customerlogin()[pri:1, instance:com.csp.qa.testcase.CustomerLoginPage_TC@4ff8d125]" started-at="2024-03-08T13:21:01Z" name="customerlogin" finished-at="2024-03-08T13:21:03Z" duration-ms="2113" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- customerlogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.csp.qa.testcase.CustomerLoginPage_TC@4ff8d125]" started-at="2024-03-08T13:21:03Z" name="tearDown" finished-at="2024-03-08T13:21:04Z" duration-ms="301" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="teardownBrowser()[pri:0, instance:com.csp.qa.testcase.CustomerLoginPage_TC@4ff8d125]" started-at="2024-03-08T13:21:04Z" name="teardownBrowser" finished-at="2024-03-08T13:21:04Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownBrowser -->
+      </class> <!-- com.csp.qa.testcase.CustomerLoginPage_TC -->
+      <class name="com.csp.qa.testcase.BankManagerLogin_TC">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.csp.qa.testcase.BankManagerLogin_TC@c7ba306]" started-at="2024-03-08T13:20:46Z" name="setUp" finished-at="2024-03-08T13:20:52Z" duration-ms="6004" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testBankManagerLogin()[pri:0, instance:com.csp.qa.testcase.BankManagerLogin_TC@c7ba306]" started-at="2024-03-08T13:20:52Z" name="testBankManagerLogin" finished-at="2024-03-08T13:20:56Z" duration-ms="4194" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBankManagerLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.csp.qa.testcase.BankManagerLogin_TC@c7ba306]" started-at="2024-03-08T13:20:56Z" name="tearDown" finished-at="2024-03-08T13:20:56Z" duration-ms="392" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="teardownBrowser()[pri:0, instance:com.csp.qa.testcase.BankManagerLogin_TC@c7ba306]" started-at="2024-03-08T13:20:56Z" name="teardownBrowser" finished-at="2024-03-08T13:20:56Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownBrowser -->
+      </class> <!-- com.csp.qa.testcase.BankManagerLogin_TC -->
+      <class name="com.csp.qa.testcase.OpenAccountPage_TC">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.csp.qa.testcase.OpenAccountPage_TC@6c4980d3]" started-at="2024-03-08T13:21:28Z" name="setUp" finished-at="2024-03-08T13:21:33Z" duration-ms="5377" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="OpenAccount()[pri:1, instance:com.csp.qa.testcase.OpenAccountPage_TC@6c4980d3]" started-at="2024-03-08T13:21:33Z" name="OpenAccount" finished-at="2024-03-08T13:21:46Z" duration-ms="12646" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenAccount -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.csp.qa.testcase.OpenAccountPage_TC@6c4980d3]" started-at="2024-03-08T13:21:46Z" name="tearDown" finished-at="2024-03-08T13:21:46Z" duration-ms="352" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="teardownBrowser()[pri:0, instance:com.csp.qa.testcase.OpenAccountPage_TC@6c4980d3]" started-at="2024-03-08T13:21:46Z" name="teardownBrowser" finished-at="2024-03-08T13:21:46Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownBrowser -->
+      </class> <!-- com.csp.qa.testcase.OpenAccountPage_TC -->
+      <class name="com.csp.qa.testcase.Withdrawl_TC">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.csp.qa.testcase.Withdrawl_TC@327bcebd]" started-at="2024-03-08T13:21:46Z" name="setUp" finished-at="2024-03-08T13:21:53Z" duration-ms="6171" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Verify_Withdraw_With_ValideAmmount()[pri:1, instance:com.csp.qa.testcase.Withdrawl_TC@327bcebd]" started-at="2024-03-08T13:21:53Z" name="Verify_Withdraw_With_ValideAmmount" finished-at="2024-03-08T13:22:07Z" duration-ms="14211" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Withdraw_With_ValideAmmount -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.csp.qa.testcase.Withdrawl_TC@327bcebd]" started-at="2024-03-08T13:22:07Z" name="tearDown" finished-at="2024-03-08T13:22:07Z" duration-ms="401" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="teardownBrowser()[pri:0, instance:com.csp.qa.testcase.Withdrawl_TC@327bcebd]" started-at="2024-03-08T13:22:07Z" name="teardownBrowser" finished-at="2024-03-08T13:22:07Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownBrowser -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.csp.qa.testcase.Withdrawl_TC@327bcebd]" started-at="2024-03-08T13:22:27Z" name="setUp" finished-at="2024-03-08T13:22:33Z" duration-ms="6436" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Verify_Withdraw_With_InValideAmmount()[pri:2, instance:com.csp.qa.testcase.Withdrawl_TC@327bcebd]" started-at="2024-03-08T13:22:33Z" name="Verify_Withdraw_With_InValideAmmount" finished-at="2024-03-08T13:22:46Z" duration-ms="12222" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Withdraw_With_InValideAmmount -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.csp.qa.testcase.Withdrawl_TC@327bcebd]" started-at="2024-03-08T13:22:46Z" name="tearDown" finished-at="2024-03-08T13:22:46Z" duration-ms="380" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="teardownBrowser()[pri:0, instance:com.csp.qa.testcase.Withdrawl_TC@327bcebd]" started-at="2024-03-08T13:22:46Z" name="teardownBrowser" finished-at="2024-03-08T13:22:46Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownBrowser -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.csp.qa.testcase.Withdrawl_TC@327bcebd]" started-at="2024-03-08T13:22:56Z" name="setUp" finished-at="2024-03-08T13:23:03Z" duration-ms="6665" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Verify_Withdraw_With_InSufficient()[pri:3, instance:com.csp.qa.testcase.Withdrawl_TC@327bcebd]" started-at="2024-03-08T13:23:03Z" name="Verify_Withdraw_With_InSufficient" finished-at="2024-03-08T13:23:17Z" duration-ms="13955" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Withdraw_With_InSufficient -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.csp.qa.testcase.Withdrawl_TC@327bcebd]" started-at="2024-03-08T13:23:17Z" name="tearDown" finished-at="2024-03-08T13:23:17Z" duration-ms="424" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="teardownBrowser()[pri:0, instance:com.csp.qa.testcase.Withdrawl_TC@327bcebd]" started-at="2024-03-08T13:23:17Z" name="teardownBrowser" finished-at="2024-03-08T13:23:17Z" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownBrowser -->
+      </class> <!-- com.csp.qa.testcase.Withdrawl_TC -->
+      <class name="com.csp.qa.testcase.CustomerPage_TC">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.csp.qa.testcase.CustomerPage_TC@3403e2ac]" started-at="2024-03-08T13:21:12Z" name="setUp" finished-at="2024-03-08T13:21:18Z" duration-ms="5619" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="DeleteCustomerEntry()[pri:1, instance:com.csp.qa.testcase.CustomerPage_TC@3403e2ac]" started-at="2024-03-08T13:21:18Z" name="DeleteCustomerEntry" finished-at="2024-03-08T13:21:19Z" duration-ms="1267" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteCustomerEntry -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.csp.qa.testcase.CustomerPage_TC@3403e2ac]" started-at="2024-03-08T13:21:19Z" name="tearDown" finished-at="2024-03-08T13:21:19Z" duration-ms="281" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="teardownBrowser()[pri:0, instance:com.csp.qa.testcase.CustomerPage_TC@3403e2ac]" started-at="2024-03-08T13:21:19Z" name="teardownBrowser" finished-at="2024-03-08T13:21:19Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownBrowser -->
+      </class> <!-- com.csp.qa.testcase.CustomerPage_TC -->
+      <class name="com.csp.qa.testcase.DepositePage_TC">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.csp.qa.testcase.DepositePage_TC@19c65cdc]" started-at="2024-03-08T13:22:07Z" name="setUp" finished-at="2024-03-08T13:22:13Z" duration-ms="5876" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="VerifyDepositWithValidAmount()[pri:1, instance:com.csp.qa.testcase.DepositePage_TC@19c65cdc]" started-at="2024-03-08T13:22:13Z" name="VerifyDepositWithValidAmount" finished-at="2024-03-08T13:22:16Z" duration-ms="3416" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyDepositWithValidAmount -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.csp.qa.testcase.DepositePage_TC@19c65cdc]" started-at="2024-03-08T13:22:16Z" name="tearDown" finished-at="2024-03-08T13:22:17Z" duration-ms="268" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="teardownBrowser()[pri:0, instance:com.csp.qa.testcase.DepositePage_TC@19c65cdc]" started-at="2024-03-08T13:22:17Z" name="teardownBrowser" finished-at="2024-03-08T13:22:17Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownBrowser -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.csp.qa.testcase.DepositePage_TC@19c65cdc]" started-at="2024-03-08T13:22:46Z" name="setUp" finished-at="2024-03-08T13:22:53Z" duration-ms="6798" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="VerifyDepositWithInvalidAmount()[pri:2, instance:com.csp.qa.testcase.DepositePage_TC@19c65cdc]" started-at="2024-03-08T13:22:53Z" name="VerifyDepositWithInvalidAmount" finished-at="2024-03-08T13:22:56Z" duration-ms="3138" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyDepositWithInvalidAmount -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.csp.qa.testcase.DepositePage_TC@19c65cdc]" started-at="2024-03-08T13:22:56Z" name="tearDown" finished-at="2024-03-08T13:22:56Z" duration-ms="400" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="teardownBrowser()[pri:0, instance:com.csp.qa.testcase.DepositePage_TC@19c65cdc]" started-at="2024-03-08T13:22:56Z" name="teardownBrowser" finished-at="2024-03-08T13:22:56Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownBrowser -->
+      </class> <!-- com.csp.qa.testcase.DepositePage_TC -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
